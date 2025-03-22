@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food Shop</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#menu, #cart {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 200px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    background: #d32f2f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #b71c1c;
+}
+
+footer {
+    background: #d32f2f;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>\
+    <header> 
+        <div class="logo">
+            <h1>PRIYA FAST FOOD</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="Burger.jpg" alt="Burger">
+                <h3>Cheeseburger</h3>
+                <p>150</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="pizza.jpg" alt="Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>200</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="FRIES.jpg" alt="Fries">
+                <h3>French Fries</h3>
+                <p>Rs180</p>
+                    <button>Add to Cart</button>            </div>
+            <div class="menu-item">
+                <img src="DRINKS.jpg"alt="Drink">
+                <h3>Coke</h3>
+                <p >Rs70</p>
+                        <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <p>Burger,Coke</p>
+        </div>
+        <div class="cart-total">
+            <h3>Total:220</h3>
+            <button Checkout   utton>                                                                       
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sripriya D FOOD SHOP</p>
+     </footer>
+     
+
+</body>
+</html>
